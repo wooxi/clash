@@ -526,6 +526,7 @@ rules:
     - 'IP-CIDR,220.181.174.226/32,Hysteria2,no-resolve'
     - 'IP-CIDR,220.181.174.34/32,Hysteria2,no-resolve'
     - 'IP-CIDR,192.168.100.4/32,Home,no-resolve'
+    - 'IP-CIDR,192.168.100.3/32,Home,no-resolve'
     - 'IP-CIDR,192.168.100.2/32,Home,no-resolve'
     - 'IP-CIDR,192.168.100.1/32,Home,no-resolve'
     - 'DOMAIN,injections.adguard.org,DIRECT'
