@@ -18,7 +18,7 @@ dns:
 proxies:
     - { name: '2024666', type: hysteria2, server: 2024666.buzz, port: 6003, password: 1q2w3e4r,sni:2024666.buzz, skip-cert-verify: true }
 proxy-groups:
-    - { name: HY2, type: select, proxies: [DIRECT, '2024666','230911'] }
+    - { name: HY2, type: select, proxies: [DIRECT, '2024666'] }
 
 rules:
     - 'DOMAIN-SUFFIX,xn--4gq62f52gdss.com,HY2'
