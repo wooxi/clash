@@ -529,6 +529,7 @@ rules:
     - 'IP-CIDR,192.168.100.3/32,Home,no-resolve'
     - 'IP-CIDR,192.168.100.2/32,Home,no-resolve'
     - 'IP-CIDR,192.168.100.1/32,Home,no-resolve'
+    - 'IP-CIDR,music.163.com,Home'
     - 'DOMAIN,injections.adguard.org,DIRECT'
     - 'DOMAIN,local.adguard.org,DIRECT'
     - 'DOMAIN-SUFFIX,local,DIRECT'
