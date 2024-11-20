@@ -16,7 +16,7 @@ dns:
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 
 proxies:
-    - { name: 'Home', type: vmess, server: chongyaa.top, port: 6066, uuid: bb7d0909-eb5b-4c41-b4e1-6f774fecb20b,alterId: 0,cipher: auto, udp: true, sni: 0.0.0.0, skip-cert-verify: true }
+    - { name: 'Home', type: hysteria2, server: chongyaa.top, port: 6066, password: chongyaa,sni:chongyaa.top, skip-cert-verify: true }
     - { name: 'Hysteria2', type: hysteria2, server: 2024666.buzz, port: 6789, password: 1q2w3e4r,sni:2024666.buzz, skip-cert-verify: true }
 proxy-groups:
     - { name: 回家, type: select, proxies: [DIRECT, 'Home','Hysteria2'] }
